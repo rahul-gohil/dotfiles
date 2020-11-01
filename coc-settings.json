@@ -1,0 +1,38 @@
+{
+    "tsserver.trace.server": "verbose",
+    "tsserver.log": "verbose",
+    "coc.preferences.formatOnSaveFiletypes": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact"
+      ],
+    "signature.target": "echo",
+    "tsserver.formatOnType": true,
+    "coc.preferences.formatOnType": true,
+    "eslint.autoFixOnSave": true,
+    "eslint.filetypes": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
+    "languageserver": {
+        "ccls": {
+          "command": "ccls",
+          "filetypes": ["c", "cpp", "objc", "objcpp"],
+          "rootPatterns": [".ccls", "compile_commands.json", ".vim/", ".git/", ".hg/"],
+          "initializationOptions": {
+             "cache": {
+               "directory": "/tmp/ccls"
+             }
+           }
+        }
+    },
+    "java.enabled": false,
+    "java.home": "/usr/lib/jvm/java-8-openjdk-amd64",
+    "java.trace.server": "verbose",
+    "java.configurations.runtimes": [
+        {
+            "name": "JavaSE-1.8",
+            "path": "/usr/lib/jvm/java-8-openjdk-amd64",
+            "default": true
+        }
+    ]
+
+}
